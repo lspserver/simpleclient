@@ -26,7 +26,10 @@ go run main.go cat
 # Run a shell command
 go run main.go sh pwd
 
-# Run a LSP server
+# Run a lsp server
+# npm i -g bash-language-server dockerfile-language-server-nodejs javascript-typescript-langserver
+# npm i -g typescript typescript-language-server
+# npm i -g vscode-css-languageserver-bin vscode-html-languageserver-bin
 # TBD
 ```
 
