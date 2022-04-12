@@ -23,8 +23,11 @@ go mod init simpleclient
 # Echo sent messages to the output area
 go run main.go cat
 
-# Run a shell.Try sending "ls" and "cat main.go"
-go run main.go sh
+# Run a shell command
+go run main.go sh pwd
+
+# Run a LSP server
+# TBD
 ```
 
 
